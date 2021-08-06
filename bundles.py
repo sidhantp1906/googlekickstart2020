@@ -6,7 +6,7 @@ def calc(listB):
     for j in range(len(listB)-1):
         for i in listB[j]:
             for k in listB[j + 1]:
-                if i == k:
+                while i == k:
                     c += 1
 
         return c
